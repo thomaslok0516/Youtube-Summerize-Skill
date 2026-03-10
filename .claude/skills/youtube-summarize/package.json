@@ -1,0 +1,19 @@
+{
+  "name": "youtube-summarize",
+  "version": "1.0.0",
+  "description": "Fetch and summarize new YouTube videos using the YouTube Data API and Gemini",
+  "private": true,
+  "scripts": {
+    "resolve": "tsx scripts/resolve-channel.ts",
+    "fetch": "tsx scripts/fetch-videos.ts",
+    "summarize": "tsx scripts/summarize.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.44.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
