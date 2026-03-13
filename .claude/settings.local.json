@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node -e \"require\\('@google/genai'\\)\" 2>&1)"
+      "Bash(node -e \"require\\('@google/genai'\\)\" 2>&1)",
+      "Bash(mv /Users/luojunhui/Documents/playground/AI/loks/node_modules /Users/luojunhui/Documents/playground/AI/loks/.claude/skills/youtube-summarize/node_modules && mv /Users/luojunhui/Documents/playground/AI/loks/pnpm-lock.yaml /Users/luojunhui/Documents/playground/AI/loks/.claude/skills/youtube-summarize/pnpm-lock.yaml && rm /Users/luojunhui/Documents/playground/AI/loks/package.json)",
+      "Bash(mv /Users/luojunhui/Documents/playground/AI/loks/.claude/skills/youtube-summarize /Users/luojunhui/Documents/playground/AI/loks/youtube-summarize && rmdir /Users/luojunhui/Documents/playground/AI/loks/.claude/skills && ls /Users/luojunhui/Documents/playground/AI/loks/)"
     ]
   }
 }
